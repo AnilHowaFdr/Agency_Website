@@ -1,6 +1,7 @@
 import { IoMdCheckmarkCircle } from "react-icons/io";
 import { IoCheckmarkCircleOutline, IoCheckmarkSharp } from "react-icons/io5";
 import Button from "../utilities/Button";
+import IconHeading from "../utilities/IconHeading";
 
 const AboutItems = () => {
   return (
@@ -31,12 +32,7 @@ const AboutItems = () => {
               </span>
               <h4 className="heading4 w-56">Digital Strategy</h4>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="w-4 h-4 relative rounded-full bg-gradient-to-r from-[#fe651b] to-[#ffaa52]">
-                <IoCheckmarkSharp className="text-white top-0 left-0" />
-              </span>
-              <h4 className="heading4 w-56">SEO Optimization</h4>
-            </div>
+            <IconHeading title="SEO Optimization" />
           </div>
           <div className="flex pb-12 items-center gap-16">
             <div className="flex items-center gap-2">
