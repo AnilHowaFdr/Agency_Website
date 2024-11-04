@@ -14,7 +14,7 @@
   color: transparent;
 }
 .detail {
-  @apply font-secondary  text-lg font-normal text-[#6B6161];
+  @apply font-secondary  text-lg font-normal text-[#9b8f8f];
 }
 .heading2 {
   @apply font-secondary  text-xl font-medium;
@@ -24,4 +24,7 @@
 }
 .heading {
   @apply font-third text-5xl font-bold;
+}
+.heading3 {
+  @apply font-third text-2xl font-bold;
 }
