@@ -8,9 +8,10 @@ import BannerOne from "./BannerOne";
 import BannerTwo from "./BannerTwo";
 const HeroSection = () => {
   const settings = {
-    dots: true,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,

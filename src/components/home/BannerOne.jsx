@@ -1,7 +1,7 @@
 const BannerOne = () => {
   return (
     <div className="py-28">
-      <div className="container">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex items-center gap-8">
           <div>
             <h3 className="colorGradient text-secondary text-2xl font-medium">
