@@ -6,12 +6,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply scroll-smooth;
+}
 .colorGradient {
   background: linear-gradient(90deg, #fe651b, #ffaa52);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+.isActive {
+  @apply text-[#FE681E];
 }
 .detail {
   @apply font-secondary  text-lg font-normal text-[#9b8f8f];
