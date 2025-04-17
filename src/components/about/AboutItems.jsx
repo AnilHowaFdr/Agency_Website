@@ -7,10 +7,10 @@ const AboutItems = () => {
   return (
     <section className="py-28">
       <div className="container flex items-center gap-24">
-        <div>
-          <img src="/aboutImg.png" alt="about" />
+        <div className="w-1/2">
+          <img className="w-full" src="/aboutImg.png" alt="about" />
         </div>
-        <div>
+        <div className="w-1/2">
           <div className="flex gap-2 items-center">
             <img className="w-6 h-6" src="/focus.png" alt="focus" />
             <h4 className="heading2 text-primary">About Our Company</h4>

@@ -7,7 +7,7 @@ import {
 
 const CreativeItems = ({ src, title, detail }) => {
   return (
-    <div className="p-5 w-1/4 rounded-xl bg-white">
+    <div className="p-5 w-auto rounded-xl bg-white">
       <div className="rounded-xl pb-5">
         <img className="w-full" src={src} alt="img" />
       </div>

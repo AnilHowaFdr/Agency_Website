@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CreativeItems from "./CreativeItems";
 
 const Creative = () => {
@@ -13,28 +14,31 @@ const Creative = () => {
             Creative Team Member
           </h2>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 pb-10">
           <CreativeItems
-            src="/user5.jpg"
+            src="/user5.png"
             title="Robert Sions"
             detail="Business Consultant"
           />
           <CreativeItems
-            src="/user2.jpg"
+            src="/user2.png"
             title="Karikok Jahan"
             detail="Executive Manager"
           />
           <CreativeItems
-            src="/user3.jpg"
+            src="/user3.png"
             title="Dickerson MH"
             detail="Business Consultant"
           />
           <CreativeItems
-            src="/user4.jpg"
+            src="/user4.png"
             title="Karikok Jahan"
             detail="Agency Analysis"
           />
         </div>
+        <button className=" m-auto py-4 px-8 bg-primary text-white hover:bg-gradient-to-r from-[#fe651b] to-[#ffaa52] rounded-full font-secondary flex flex-col items-center justify-center text-lg font-normal">
+          <Link to="/teamDetails">See More</Link>
+        </button>
       </div>
     </section>
   );

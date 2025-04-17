@@ -1,4 +1,4 @@
-const TestimonialItems = () => {
+const TestimonialItems = ({ src }) => {
   return (
     <div className="bg-secondary rounded-xl p-3 mb-3">
       <div className="flex items-center justify-between ">
@@ -13,7 +13,7 @@ const TestimonialItems = () => {
       </p>
       <div className="flex items-center gap-5">
         <div className="w-16 h-16 rounded-full overflow-hidden">
-          <img src="/user2.jpg" alt="img" />
+          <img src={src} alt="img" />
         </div>
         <div>
           <h4 className="heading3">Kristin Waon</h4>

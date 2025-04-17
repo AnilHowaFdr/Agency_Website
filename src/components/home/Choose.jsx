@@ -19,6 +19,7 @@ const Choose = () => {
               humour, or randomised word whic look even sligh believable. If you
               are going to use.
             </p>
+
             <div className="pt-8 pb-3 flex justify-between items-end">
               <p>Software Development</p>
               <p>85%</p>

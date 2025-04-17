@@ -11,7 +11,7 @@ const Blog = () => {
           </div>
           <h2 className="heading pt-4 pb-12 ">Latest Blogs & Articles</h2>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex flex-col md:flex-row items-center gap-6">
           <BlogItems
             src="/blog3.png"
             detail="Successful business partner have

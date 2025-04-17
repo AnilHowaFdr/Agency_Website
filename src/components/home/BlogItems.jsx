@@ -4,8 +4,8 @@ import { IoEyeOutline } from "react-icons/io5";
 
 const BlogItems = ({ src, detail }) => {
   return (
-    <div className="rounded-3xl w-1/3 px-3 py-5 bg-secondary">
-      <div className="rounded-3xl border relative ">
+    <div className="rounded-3xl w-full md:w-1/3 px-3 py-5 bg-secondary">
+      <div className="rounded-3xl relative ">
         <img className="w-full" src={src} alt="img" />
         <div className="p-3 bg-primary w-24 rounded-full text-white font-medium absolute left-0 bottom-0 z-10 font-secondary text-lg text-center ">
           <p>09 Dec 2022</p>
@@ -17,7 +17,7 @@ const BlogItems = ({ src, detail }) => {
         </div>
       </div>
       <div>
-        <ul className="flex items-start gap-6 py-4">
+        <ul className="flex items-start gap-6 pt-4 pb-8">
           <li className="flex gap-1 items-center">
             <span className="text-xl">
               <CiUser />
@@ -37,7 +37,7 @@ const BlogItems = ({ src, detail }) => {
             <p className="detail">120 Views</p>
           </li>
         </ul>
-        <h3 className="heading3 hover:text-primary">{detail}</h3>
+        <h3 className="heading3 hover:text-primary w-96">{detail}</h3>
       </div>
     </div>
   );

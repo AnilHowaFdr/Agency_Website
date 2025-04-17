@@ -49,7 +49,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className="flex gap-1 items-center hover:text-[#FE681E]"
-                  to="/sevices"
+                  to="/services"
                 >
                   Services
                   <span className="text-2xl pt-1">

@@ -16,6 +16,9 @@
 .detail {
   @apply font-secondary  text-lg font-normal text-[#9b8f8f];
 }
+.detail2 {
+  @apply font-secondary  text-lg font-normal text-[#1A1A1A];
+}
 .heading2 {
   @apply font-secondary  text-xl font-medium;
 }

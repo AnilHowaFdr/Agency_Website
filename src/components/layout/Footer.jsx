@@ -92,7 +92,11 @@ const Footer = () => {
           <div className="w-1/5 py-28">
             <FootItems title="Recent Post" />
             <div className="pt-6 flex items-center gap-4">
-              <img className="w-20 h-20 rounded-lg" src="/user1.jpg" alt="" />
+              <img
+                className="w-28 h-20 rounded-lg bg-white"
+                src="/user2.png"
+                alt=""
+              />
               <div>
                 <p className="detail pb-1">
                   Thoughtful man using laptop pondering{" "}
@@ -101,7 +105,11 @@ const Footer = () => {
               </div>
             </div>
             <div className="pt-6 flex items-center gap-4">
-              <img className="w-20 h-20 rounded-lg" src="/user2.jpg" alt="" />
+              <img
+                className="w-28 h-20 rounded-lg bg-white"
+                src="/user3.png"
+                alt=""
+              />
               <div>
                 <p className="detail pb-1">
                   Thoughtful man using laptop pondering{" "}
